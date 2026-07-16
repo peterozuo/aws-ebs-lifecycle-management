@@ -20,7 +20,7 @@ A hands-on cloud infrastructure project demonstrating how to manage the complete
 🚀 Step-by-Step Implementation Guide
 Step 1: Provisioning the EBS Block Volume
 We began by creating a fresh, high-performance 100 GiB gp3 EBS volume within the same Availability Zone (⁠us-east-1a⁠) as our target host EC2 instance to ensure low-latency block access.
-
+```
 ![01-ebs-volume-created](./assets/01-ebs-volume-created.png)
 
 Step 2: Attaching the Volume to the EC2 Instance
