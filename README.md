@@ -129,7 +129,7 @@ sudo xfs_growfs -d /myebsvol
 df -h /myebsvol
 
 
-![08-volume-resized-105gb](./assets/08-volume-resized-105gb.png)
+![08-volume-resizedn-105gb](./assets/08-volume-resizedn-105gb.png)
 
 ---
 
