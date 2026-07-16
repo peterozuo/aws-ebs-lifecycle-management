@@ -26,7 +26,7 @@ We began by creating a fresh, high-performance 100 GiB gp3 EBS volume within the
 Step 2: Attaching the Volume to the EC2 Instance
 Once created, the volume was attached to the target Linux instance as a raw block storage device mapped to ⁠/dev/sdk⁠.
 
-![02-ebs-volume-attached](./assets/02-ebs-volume-attached.png)
+![02-ebs-volume-formatted](./assets/02-ebs-volume-formatted.png)
 
 Step 3: Initializing and Formatting the Filesystem
 After connecting to the instance via SSH, we checked the block devices using ⁠lsblk⁠ and initialized the raw volume with a high-performance XFS filesystem:
